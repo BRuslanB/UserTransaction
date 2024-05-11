@@ -1,10 +1,11 @@
 # general settings
 server:
-  port: 8080
+  port: 8088
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/transaction_db
+    url: jdbc:postgresql://db:5432/transaction_db # for use PostgreSQL container
+#    url: jdbc:postgresql://localhost:5432/transaction_db # for use local PostgreSQL
     username: postgres
     password: postgres
   jpa:
