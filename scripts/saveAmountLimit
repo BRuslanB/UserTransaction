@@ -1,0 +1,10 @@
+Check link:
+http://localhost:8000/api/client
+
+Create HTTP request method POST:
+{
+  "account_from": "0000123456",
+  "limit_sum": 2000,
+  "limit_currency_shortname": "RUB",
+  "expense_category": "Service"
+}

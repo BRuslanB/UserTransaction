@@ -1,6 +1,7 @@
 # User Transaction Service
-This Java-based service is backed by a REST API for storing and processing expense transactions, as well as setting custom spending limits.
-Note. This custom transaction service was created as a test task for an internship at one of the IT companies.
+This backend Java-based service is backed by a REST API for storing and processing expense transactions, as well as setting custom spending limits.
+
+Note. This custom transaction service was created as a test task for an internship at one of the IT companies (examples of scripts for checking can be found in the UserTransactionNew\scripts folder).
 
 ## Features
 The User Transaction Service allows you to process two subtypes of services (banking and user):
@@ -9,6 +10,7 @@ The User Transaction Service allows you to process two subtypes of services (ban
 * Receive and save transaction costs;
 * Receive current exchange rates from an external resource;
 * Convert the transaction amount to determine if the limit has been exceeded. The amount is converted at the current exchange rate and the type of currency of the established limit.
+
 2. User services:
 * Set a limit for subsequent transactions in the selected currency;
 * Receive a list of all user limits;
@@ -44,6 +46,10 @@ git clone https://github.com/BRuslanB/UserTransaction.git
 2. Launch:
 ```bash
 docker-compose up -d
+```
+3. Checking services. Documentation for services can be found at the following link:
+```
+http://localhost:8000/swagger-ui/index.html
 ```
 
 ## Contributing

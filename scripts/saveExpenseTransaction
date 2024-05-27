@@ -1,0 +1,12 @@
+Check link:
+http://localhost:8000/api/bank
+
+Create HTTP request method POST:
+{
+  "account_from": "0000123456",
+  "account_to": "9876543210",
+  "currency_shortname": "KZT",
+  "Sum": 10000.0,
+  "expense_category": "Service",
+  "datetime": "2024-02-17T18:20:20+06:00"
+}
