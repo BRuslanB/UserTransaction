@@ -1,0 +1,4 @@
+Check link:
+http://localhost:8000/api/client/transaction/0000012345
+
+Create HTTP request method GET.
